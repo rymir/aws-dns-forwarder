@@ -13,4 +13,4 @@ ADD startdns.sh /startdns.sh
 
 EXPOSE 53/udp
 
-CMD ["/bin/bash /startdns.sh"]
+CMD ["/bin/bash", "/startdns.sh"]
